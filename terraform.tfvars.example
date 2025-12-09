@@ -1,0 +1,20 @@
+aws_region        = "us-east-1"
+slack_webhook_url = "https://hooks.slack.com/services/XXX/YYY/ZZZ"
+slack_channel     = "#infra-alerts"  # Default channel for accounts not in account-mappings.yaml
+
+# GitOps Approach: Account mappings are defined in account-mappings.yaml
+# Terraform automatically reads the current AWS account ID and looks it up in the YAML file
+# No need to specify account_application_mapping here - it's read from account-mappings.yaml
+
+# Optional: Override the mappings file path (defaults to account-mappings.yaml)
+# mappings_file_path = "account-mappings.yaml"
+
+# Optional: Override channel routing (if not specified, reads from account-mappings.yaml)
+# channel_routing = {
+#   "DUP" = {
+#     "dev"  = "#dup-dev-alerts"
+#     "prod" = "#dup-prod-alerts"
+#   }
+# }
+
+
