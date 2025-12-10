@@ -4,37 +4,37 @@
 
 accounts:
   # DUP application - 2 accounts (dev, prod)
-  "178388933992":
+  "111111111111":
     application: "DUP"
     environment: "dev"
   
-  "502280068194":
-   application: "DUP"
-   environment: "prod"
+  "222222222222":
+    application: "DUP"
+    environment: "prod"
   
   # DPS application - 4 accounts (dev, int, stg, prod)
-  "178595328311":
+  "333333333333":
     application: "DPS"
     environment: "dev"
   
-  "107692567449":
+  "444444444444":
     application: "DPS"
     environment: "int"
   
-  "214343582850":
+  "555555555555":
     application: "DPS"
     environment: "stg"
   
-  "710592442743":
+  "666666666666":
     application: "DPS"
     environment: "prod"
   
   # Email application - 2 accounts (dev, prod)
-  "207875491356":
+  "777777777777":
     application: "email"
     environment: "dev"
   
-  "220951120248":
+  "888888888888":
     application: "email"
     environment: "prod"
 
